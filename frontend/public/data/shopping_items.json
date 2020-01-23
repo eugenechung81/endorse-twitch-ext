@@ -1,0 +1,13 @@
+{
+  "shopping_items": [{
+    "id": 1,
+    "title": "watch",
+    "img_path": "img/shop1.png",
+    "cost": 95
+  }, {
+    "id": 2,
+    "title": "everscroll",
+    "img_path": "img/shop2.png",
+    "cost": 75
+  }]
+}

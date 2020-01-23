@@ -1,0 +1,14 @@
+version: '3'
+services:
+  twitch-ext:
+    image: twitch-ext:latest
+    build: ./backend
+    ports:
+      - "5003:5003"
+    networks:
+      - endorsenet
+    command: python server.py
+    # command: gunicorn -w 2 -b 0.0.0.0:5001 server:app
+
+networks:
+  endorsenet:
